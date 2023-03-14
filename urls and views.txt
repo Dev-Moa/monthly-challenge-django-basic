@@ -1,0 +1,1 @@
+client sends -----> request -----> server -----> urlConf -----> views -----> response -----> client

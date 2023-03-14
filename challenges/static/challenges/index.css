@@ -1,0 +1,32 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+}
+
+
+ul {
+   
+    list-style: none;
+    background-color: aliceblue;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap : 20px;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+a:hover{
+    color: blueviolet;
+}
+
+
+li a {
+    color: black;
+}

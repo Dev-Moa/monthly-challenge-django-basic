@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block page_title %} challenges page {% endblock %}
+{% block css_files %}
+{% endblock  %}
+
+{% block content %}
+
+{% include 'challenges/includes/nav.html'   %}
+
+<div class="container text-center bg-info p-5 rounded-4">
+    <p > {{ month }} challenge</p>
+    
+    {% if text is not None %}
+        <h2> {{ text | title }} </h2>
+    {% else %}
+        <h2> There is no challenge for this month </h2>
+    {% endif %}
+</div>
+{% endblock content %}
+
